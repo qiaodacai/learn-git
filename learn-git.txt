@@ -7,4 +7,12 @@ git 学习个人记录
 6,git commit -m "this is the first commit"
 7,each commit will new a hash id: git log (git log -n 1)
 8,HEAD express current version,HEAD^ is the last ,HEAD^^ is the last last,HEAD~100 is the last 100: git reset --hard HEAD
-9,
+9,git checkout -- learn-git.txt
+10,git diff HEAD -- learn-git.txt
+11,remove the file in git : git rm  and git commit -m "..."
+12,git remote add origin git@github.com:qiaodacai/learn-git.git
+13,git push oirgin master(oirgin is the long-range name about repository)(master is the name of branch) the first push you should use :git push -u origin master
+14,git clone git@github.com:michaelliao/gitskills.git
+15,add ssh-key to GitHub : ssh-keygen -t rsa -C "835719733@qq.com"
+	cd ~; cd .ssh; ls ; id_rsa.pub is public and id_isa is private
+16,
