@@ -1,0 +1,7 @@
+git 学习个人记录
+1,install yun : yum install git 
+2,init a new empty repository : mkdir git; cd git; git init
+3,see the status about repository: git status
+4,see what is differen: git diff learn-git.txt
+5,git add learn-git.txt (git add .)
+6,git commit -m "this is the first commit"
