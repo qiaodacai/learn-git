@@ -5,3 +5,6 @@ git 学习个人记录
 4,see what is differen: git diff learn-git.txt
 5,git add learn-git.txt (git add .)
 6,git commit -m "this is the first commit"
+7,each commit will new a hash id: git log (git log -n 1)
+8,HEAD express current version,HEAD^ is the last ,HEAD^^ is the last last,HEAD~100 is the last 100: git reset --hard HEAD
+9,
